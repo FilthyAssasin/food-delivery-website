@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ajsf</title>
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	
+</head>
+<body>
+	<a href="#" class="app-icon"><i class="fa fa-calculator" aria-hidden="true"></i></a>
+<a href="#" class="app-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></a>
+<a href="#" class="app-icon"><i class="fa fa-rss" aria-hidden="true"></i></a>
+
+<div class="app-div">
+content div 1
+</div>
+
+<div class="app-div">
+content div 2
+</div>
+
+<div class="app-div">
+content div 3
+</div>
+<script src="jquery.min.js"></script>
+<script type="text/javascript">
+
+$('.app-icon').click(function() {
+  var index = $(this).index();
+  $('.app-div').eq(index).toggle().siblings('.app-div').hide();
+});
+
+
+$('.app-div').addClass('animated fadeInUp');
+</script>
+</body>
+</html>

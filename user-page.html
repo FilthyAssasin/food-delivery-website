@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+       
+        <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="Resources/css/queries.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet" type="text/css">
+        <link rel ="icon" href ="Resources/Images/logo.png" 
+        type = "image/x-icon"> 
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="animate.css">
+        <link rel="stylesheet" type="text/css" href="Resources/css/user-page css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=Raleway:300,500|Arvo:700' rel='stylesheet' type='text/css'>
+        <title>Welcome-Food Feast</title>
+
+        <style type="text/css">
+          
+          header{
+    
+            background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0, 0.7)), url(Resources/css/Images/user-background.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+          }
+          .order-button{
+
+            background-color: #FC8003;
+
+
+          }
+          .order-button:hover{
+
+            background-color: #D50B2C;
+
+          }
+          .card-image{
+
+            height: 250px;
+
+          }
+          .icon-text{
+
+            margin-right: auto;
+
+          }
+          #logo-link{
+
+            text-decoration: none; 
+
+          }
+          .select-title{
+
+            margin-left: 30%;
+
+          }
+          .dropdown{
+
+            margin: 20px 50%;
+
+          }
+
+          .rm-data,.rm-content,.pop-up-button{
+
+            font-size: 75%;
+            font-family: times-new-roman;
+
+
+          }
+          .rm-logo{
+
+            background-image: url(Resources/Images/logo.png);
+            background-size: cover;
+   
+
+          }
+
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                  <div>
+                    <a id="logo-link" href="project.html"><img class="logo first-menu" src="Resources/Images/logo.png" alt="Food Feast">
+                    </div>
+                    <div class="icon-text">
+                    <span class="top-text">Food Feast</span>
+                    </a>
+                  </div>
+                    <ul class="main-nav">
+                      <li><a class="top-button" href="index.html">Logout</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><ion-icon class="stack" name="menu"></ion-icon></a>
+                </div>
+            </nav>
+            <div class="main-text-box">
+                <h1>Anything you have in mind,<br> We have it for you!</h1><br>
+                <form>
+                  <div class="row">
+                    <div class="col">
+                    <input type="text" class="form-control col animated slideInLeft" placeholder="Search your favorite foods here!">
+                    </div>
+                    <div class="col-sm-3">
+                    <a class="btn btn-outline-danger js--scroll-to-plans animated slideInLeft form-control" href="#">Order Now!!</a> 
+                    </div>
+                  </div>
+                </form>
+            </div>
+        </header>
+
+        <section class="section-features js--section-features" id="features">
+            <div class="row">
+                
+                <h2>Our Best Sellers!</h2>
+                
+            </div>
+            <br>
+            <br>
+          <div class="row wow slideInUp">
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top card-image" src="Resources/Images/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ADD TEXT</p>
+                  <a href="#" class="btn btn-primary order-button">Order</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top card-image" src="Resources/Images/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ADD TEXT</p>
+                  <a href="#" class="btn btn-primary order-button">Order</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top card-image" src="Resources/Images/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ADD TEXT</p>
+                  <a href="#" class="btn btn-primary order-button">Order</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top card-image" src="Resources/Images/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ADD TEXT</p>
+                  <a href="#" class="btn btn-primary order-button">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br><br>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top card-image" src="Resources/Images/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ADD TEXT</p>
+                  <a href="#" class="btn btn-primary order-button">Order</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top card-image" src="Resources/Images/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ADD TEXT</p>
+                  <a href="#" class="btn btn-primary order-button">Order</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top card-image" src="Resources/Images/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ADD TEXT</p>
+                  <a href="#" class="btn btn-primary order-button">Order</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top card-image" src="Resources/Images/5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">ADD TEXT</p>
+                  <a href="#" class="btn btn-primary order-button">Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>          
+
+          <h2>Don't have anything in mind!? <br> Have a look at the our menu!</h2>
+
+          <div class="container">
+      
+          <section class="main">
+
+            <div id="rm-container" class="rm-container">
+
+                <div class="rm-wrapper">
+
+                  <div class="rm-cover">
+
+                    <div class="rm-front">
+                      <div class="rm-content">
+
+                        <div class="rm-logo"></div>
+                        <h2>Food Feast</h2>
+
+                        <a href="#" class="rm-button-open">View the Menu</a>
+                        <div class="rm-info">
+                          <p class="rm-data">
+                          FOOD FEAST<br>
+                          Contact Us: 1223456730<br>
+                          Visit us: abc
+                          </p>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="rm-back">
+                      <div class="rm-content">
+                        <h4>Breakfast</h4>
+                        <dl>
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+
+                        <h4>Beverages</h4>
+                        <dl>
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                        </dl>
+                      </div>
+                      <div class="rm-overlay"></div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="rm-middle">
+                    <div class="rm-inner">
+                      <div class="rm-content">
+                        <h4>Main Courses</h4>
+                        <dl>
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                                                                
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                        </dl>
+                      </div>
+                      <div class="rm-overlay"></div>
+                    </div>
+                  </div>
+
+                  <div class="rm-right">
+
+                    <div class="rm-front">
+                      
+                    </div>
+
+                    <div class="rm-back">
+                      <span class="rm-close">Close</span>
+                      <div class="rm-content">
+                        <h4>Desserts</h4>
+                        <dl>
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                          
+                          <dt><a href="#" class="rm-viewdetails" data-thumb="Resources/Images/5.jpg">Add Text</a></dt>
+                          <dd>Add details</dd>
+                        </dl>
+                        <div class="rm-order">
+                          <p><strong>To contact us and to know more about our meals,</strong> Call us &amp; we'll help you!<br> Reach us here: <strong>1234567890</strong></p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </section>
+         </section> 
+
+         <footer>
+          <div class="row">
+              <div class="col span-1-of-2">
+                 <ul class="footer-nav">
+                   <li><a href="#">About us</a></li>
+                   <li><a href="#">Blog</a></li>
+                   <li><a href="#">Press</a></li>
+                   <li><a href="#">iOS App</a></li>
+                   <li><a href="#">Android App</a></li>
+                  </ul>
+              </div>
+              <div class="col span-1-of-2">
+                <ul class="social-links">
+                  <li><a href="#"><ion-icon class="fb" name="logo-facebook"></ion-icon></a></li>
+                  <li><a href="#"><ion-icon class="tw" name="logo-twitter"></ion-icon></a></li>
+                  <li><a href="#"><ion-icon class="gp" name="logo-googleplus"></ion-icon></a></li>
+                  <li><a href="#"><ion-icon class="in" name="logo-instagram"></ion-icon></a></li>
+                 </ul>
+              </div>
+            </div>
+            <div class="row">
+              <p>Copyright &copy; 2019 by Omnifood.All rights reserved.</p>
+            </div>
+        </footer>
+      
+
+
+
+
+        
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        <script type="text/javascript" src="jquery-ui.min.js"></script>
+        <script type="text/javascript" src="bootstrap.min.js"></script>
+        <script src="wow.min.js"></script>
+        <script src="Resources/JS(JQuery)/menu.js"></script>
+        <script>
+          
+          new WOW().init();
+          $(function() {
+
+            Menu.init();
+      
+          });
+
+        </script>
+        <script type="text/javascript">
+
+
+
+        </script>
+    </body>
+    
+</html>
